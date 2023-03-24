@@ -1,12 +1,27 @@
-﻿<Window x:Class="HR_App.MainWindow"
+﻿<AduSkin:MetroWindow
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HR_App"
+        xmlns:AduSkin="clr-namespace:AduSkin.Controls.Metro;assembly=AduSkin"
+        xmlns:pages="clr-namespace:HR_App.pages" x:Class="HR_App.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="人事工具箱" Height="450" Width="800"
+    ShowInTaskbar="False"
+    Loaded="MetroWindow_Loaded" Icon="image/icon.png"
+    >
     <Grid>
-        
+        <AduSkin:AduTabControl  >
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5">
+                    <pages:userInfo />
+                </Grid>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+           
+        </AduSkin:AduTabControl>
     </Grid>
-</Window>
+</AduSkin:MetroWindow>

@@ -15,14 +15,14 @@
         <Grid Margin="0,98,0,0" Background="#FFA37777" >
             <Metro:AduDataGrid >
                 <DataGrid.Columns>
-                    <DataGridTextColumn Width="auto" Header="01"/>
-                    <DataGridTextColumn Width="auto" Header="123"/>
-                    <DataGridTextColumn Width="auto" Header="01"/>
-                    <DataGridTextColumn Width="auto" Header="123"/>
-                    <DataGridTextColumn Width="auto" Header="01"/>
-                    <DataGridTextColumn Width="auto" Header="123"/>
-                    <DataGridTextColumn Width="auto" Header="01"/>
-                    <DataGridTextColumn Width="auto" Header="123"/>
+                    <DataGridTextColumn Width="auto" Header="员工编号"/>
+                    <DataGridTextColumn Width="auto" Header="姓名"/>
+                    <DataGridTextColumn Width="auto" Header="性别"/>
+                    <DataGridTextColumn Width="auto" Header="年龄"/>
+                    <DataGridTextColumn Width="auto" Header="部门"/>
+                    <DataGridTextColumn Width="auto" Header="职位"/>
+                    <DataGridTextColumn Width="auto" Header="入职日期"/>
+                    <DataGridTextColumn Width="auto" Header="其他"/>
                 </DataGrid.Columns>
             </Metro:AduDataGrid>
         </Grid>

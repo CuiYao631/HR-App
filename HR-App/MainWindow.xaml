@@ -13,13 +13,15 @@
     >
     <Grid>
         <AduSkin:AduTabControl  >
-            <TabItem Header="TabItem">
+            <TabItem Header="主页" Height="30" Width="100" >
                 <Grid Background="#FFE5E5E5">
                     <pages:userInfo />
                 </Grid>
             </TabItem>
-            <TabItem Header="TabItem">
-                <Grid Background="#FFE5E5E5"/>
+            <TabItem Header="设置" Height="30" Width="100">
+                <Grid Background="#FFE5E5E5">
+                    <pages:seting/>
+                </Grid>
             </TabItem>
            
         </AduSkin:AduTabControl>

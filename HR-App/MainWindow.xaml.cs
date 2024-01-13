@@ -31,7 +31,7 @@ namespace HR_App
             icon = new System.Windows.Forms.NotifyIcon();
             icon.BalloonTipText = this.Title;
             icon.Text = Title;
-            icon.Icon = new System.Drawing.Icon(@"icon.ico");
+            //icon.Icon = new System.Drawing.Icon(@"icon.ico");
             icon.Visible = true;
             icon.Click += (o, e1) =>
             {

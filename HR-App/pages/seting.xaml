@@ -3,10 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+              xmlns:Metro="clr-namespace:AduSkin.Controls.Metro;assembly=AduSkin"
              xmlns:local="clr-namespace:HR_App.pages"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
+    <Grid Background="White">
+        <Grid Height="83" Margin="10,10,10,0" VerticalAlignment="Top" Background="#FFD6EDB1">
+            <Metro:MetroButton Content="导入本地数据" Margin="0,22,135,21" HorizontalAlignment="Right" Width="102" Click="MetroButton_Click"/>
+            <Metro:MetroButton Content="同步云端数据" Margin="0,22,10,21" HorizontalAlignment="Right" Width="102" Click="MetroButton_Click_1"/>
+        </Grid>
+
     </Grid>
 </UserControl>

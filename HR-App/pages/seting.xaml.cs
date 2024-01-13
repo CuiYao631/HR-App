@@ -24,5 +24,17 @@ namespace HR_App.pages
         {
             InitializeComponent();
         }
+
+        //TODO 打开文件，导入本地数据
+        private void MetroButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        //TODO 同步云端数据
+        private void MetroButton_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
